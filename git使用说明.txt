@@ -1,0 +1,6 @@
+简单的上传文件
+	git add .
+	git commit -m "上传的说明"
+	git push origin master
+	删除文件
+	一样把本地的文件删除，把空文件上传就可以了
