@@ -1,1 +1,4 @@
-这是我整理的设计模式的笔记，里面包含代码和笔记，图片。
+
+文档：MyBatis的笔记
+链接：http：// note.youdao.com/noteshare？id = 8601e20f13eb9a974e6b0b4034ff0f19
+这是百度云笔记的地址，里面有中MyBatis的笔记和图片.
