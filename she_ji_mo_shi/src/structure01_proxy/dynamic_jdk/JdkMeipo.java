@@ -32,9 +32,9 @@ public class JdkMeipo implements InvocationHandler {
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		System.out.println("我是媒婆，我已经直到你的需求了，这就给你找对象了");
 		System.out.println("开始物色");
-		method.invoke(this.target, args);// 这里是调用目标对象的方法
+		Object invoke = method.invoke(this.target, args);// 这里是调用目标对象的方法
 		System.out.println("如果合适的话就准备彩礼把");
-		return null;
+		return invoke;
 	}
 
 }

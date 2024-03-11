@@ -9,7 +9,7 @@ public class Hungry {
 
 	}
 
-	// 程序运行时，加载到内存中，不再变化，每次返回的都是同一个hungry
+	// 程序运行时，加载到内存中，不再变化(变量引用)，每次返回的都是同一个hungry
 	private static final Hungry hungry = new Hungry();
 
 	public static Hungry getinstance() {
